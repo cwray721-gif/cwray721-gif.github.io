@@ -89,7 +89,7 @@ export default function Home() {
             {/* Social Icons */}
             <div className="flex items-center gap-2 ml-2">
               <a
-                href="https://www.linkedin.com/in/chris-taylor-737469212/"
+                href="https://www.linkedin.com/in/connor-wray-76a324220/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 text-gray-500 hover:text-blue-600 transition-colors"
