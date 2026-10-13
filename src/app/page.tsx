@@ -119,7 +119,7 @@ export default function Home() {
                 <Phone size={24}  />
               </a>
               <a 
-                href="https://www.instagram.com/christaylorisapunk/" target="_blank"
+                href="https://instagram.com/connorwray300" target="_blank"
                 className="p-3 text-gray-500 hover:text-pink-500 transition-colors"
               >
                 <Instagram size={24} />
