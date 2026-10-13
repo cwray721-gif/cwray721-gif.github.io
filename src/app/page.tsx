@@ -10,7 +10,7 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   const [text, setText] = useState("");
-  const fullText = "Hi, I'm Connor Wray.";
+  const fullText = "Connor Wray";
 
   useEffect(() => {
     let typeInterval: NodeJS.Timeout;
