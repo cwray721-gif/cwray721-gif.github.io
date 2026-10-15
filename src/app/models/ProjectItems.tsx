@@ -15,7 +15,7 @@ export const projects: ProjectItem[] = [
       title: "Delta Green-1:1-Jessica's Bodies",
       description: "University Student, Jessica Amon was found dead a week ago in her home. Today, she is found dead bursting out of the gut of a fellow university student who had become impossibly obese over the course of a week. It’s up to natural biologist, Cathy Prennick and veteran Vince Foresythe to discover the cause and correlation of these 2 incidents.",
       tags: ["Scripts", "Thriller", "Mystery", "60 pages"],
-      link: "https://collegiateesportsnetwork.org/",
+      link: "/Jessica's Bodies.pdf",
       github: null,
       photo: "/CEN_Logo.webp",
       fit: "contain",
