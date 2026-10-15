@@ -10,7 +10,7 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   const [text, setText] = useState("");
-  const fullText = "Hi, I'm Connor Wray.";
+  const fullText = "Connor Wray";
 
   useEffect(() => {
     let typeInterval: NodeJS.Timeout;
@@ -54,10 +54,10 @@ export default function Home() {
             {text}
             <span className="animate-pulse text-green-800">|</span>
           </h1>
-          <h1 className="text-3xl font-extrabold tracking-tight text-gray-700 sm:text-4xl min-h-[80px]">Let's build something amazing together.</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight text-gray-700 sm:text-4xl min-h-[80px]">What story do you want to tell?</h1>
           <p className="text-xl text-gray-800 max-w-lg">
-            I'm a cybersecurity professional and a software engineer passionate about building efficient solutions, while making 
-            them safe for all at the exact same time.
+            I am a writer and game designer with a passion for creating immersive experiences. My work spans across various mediums, including interactive fiction, tabletop games, and digital storytelling. I believe in the power of narrative to connect people and evoke emotions, and I strive to craft stories that resonate with audiences on a personal level.
+  
           </p>
           
           <div className="flex flex-wrap gap-4">
