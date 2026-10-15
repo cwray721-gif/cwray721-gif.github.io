@@ -24,7 +24,7 @@ export const projects: ProjectItem[] = [
     {
       title: "AgileBoard.ai",
       description: "A bug tracking app that helps prioritizes tasks, enabled using the Google Gemini AI API. Development in Progress!",
-      tags: ["Angular.js", "Tailwindcss", "Vercel", "TypeScript", "Prisma"],
+      tags: ["Angular.js", "Scripts", "Vercel", "TypeScript", "Prisma"],
       link: "https://bug-tracker-2lzlohlc4-chris-taylor7s-projects.vercel.app/",
       github: "https://github.com/Chris-Taylor7/BugTracker",
       photo: "/Agile.png",
@@ -55,7 +55,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Tickets R Us",
       description: "A ticketing application that uses a custom-built API to help prioritize tickets, built using NEXT.js, Tailwindcss, and Prisma with a PostgreSQL database. Development in Progress!",
-      tags: ["NEXT.js", "Tailwindcss", "Netlify", "Prisma", "PostgreSQL"],
+      tags: ["NEXT.js", "Tailwindcss", "Netlify", "Game Design", "PostgreSQL"],
       link: "https://ticketsrus.netlify.app/",
       github: "https://github.com/Chris-Taylor7/tickets-r-us",
       photo: "/ticket.jpg",
@@ -65,7 +65,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Wedding Planner App",
       description: "I built this app for my wife to help plan our wedding. It uses NEXT.js, Tailwindcss, and DaisyUI to help create, edit, and sort a timeline of events.",
-      tags: ["NEXT.js", "Tailwindcss", "DaisyUI", "Netlify"],
+      tags: ["Scripts", "Game Design", "DaisyUI", "Netlify"],
       link: "https://wedding-plan-timeline.netlify.app/",
       github: "https://github.com/Chris-Taylor7/wedding-timeline",
       photo: "/wedding.png",
@@ -95,7 +95,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Notes-MAUI",
       description: "Note taking application built in .NET MAUI with a SQL Express database",
-      tags: [".NET MAUI", "Mobile Development", "SQL Express"],
+      tags: [".NET MAUI", "Books", "SQL Express"],
       link: null,
       github: "https://github.com/Chris-Taylor7/Notes-MAUI",
       photo: "/Maui.webp", 
@@ -105,7 +105,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Login Component",
       description: "Responsive Login component made in native HTML, CSS, and Javascript",
-      tags: ["HTML5", "CSS3", "Javascript"],
+      tags: ["HTML5", "Books", "Javascript"],
       link: "https://logincomponentjs.netlify.app/",
       github: "https://github.com/Chris-Taylor7/login",
       photo: "/github-logo.png",
@@ -115,7 +115,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Chris Taylor's Portfolio",
       description: "Want to see how this site was made? Check out the code on GitHub!",
-      tags: ["NEXT.js", "Tailwindcss", "Vercel", "GitHub"],
+      tags: ["NEXT.js", "Tailwindcss", "Vercel", "Books"],
       link: "https://chris-taylor7.github.io/",
       github: "https://github.com/Chris-Taylor7/Chris-Taylor7.github.io",
       photo: "/github-logo.png",
@@ -123,5 +123,11 @@ export const projects: ProjectItem[] = [
       color: "slate"
     }
   ];
+
+  export const scripts = projects.filter((ProjectItem) => ProjectItem.tags.includes("Scripts"));
+
+  export const gameDesign = projects.filter((ProjectItem) => ProjectItem.tags.includes("Game Design"));
+
+  export const books = projects.filter((ProjectItem) => ProjectItem.tags.includes("Books"));
 
 
