@@ -89,41 +89,43 @@ export default function Home() {
             {/* Social Icons */}
             <div className="flex items-center gap-2 ml-2">
               <a
-                href="https://www.linkedin.com/in/chris-taylor-737469212/"
+                href="https://www.linkedin.com/in/connor-wray-76a324220/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 text-gray-500 hover:text-blue-600 transition-colors"
               >
                 <Linkedin size={24} />
               </a>
-              <a
+
+              {/* <a
                 href="https://github.com/Chris-Taylor7" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 text-gray-500 hover:text-black transition-colors"
               >
                 <Github size={24} />
-              </a>
+              </a> */}
               
               <a
-                href="mailto:chtaylor270@gmail.com" target="_blank"
+                href="mailto:cwray721@gmail.com" target="_blank"
                 className="p-3 text-gray-500 hover:text-red-500 transition-colors"
               >
                 <Mail size={24} />
               </a>
               <a 
-                href="tel:+442071234567"
+                href="tel:+15136809070"
                 className="p-3 text-gray-500 hover:text-green-500 transition-colors"
                 >
                 <Phone size={24}  />
               </a>
               <a 
-                href="https://www.instagram.com/christaylorisapunk/" target="_blank"
+                href="https://instagram.com/connorwray300" target="_blank"
                 className="p-3 text-gray-500 hover:text-pink-500 transition-colors"
               >
                 <Instagram size={24} />
               </a>
-              <a 
+
+              {/* <a 
                 href="https://www.discord.com/users/465965656270045184" target="_blank"
                 className="p-3 text-gray-500 hover:text-blue-300 transition-colors"
               >
@@ -131,7 +133,8 @@ export default function Home() {
                   icon={faDiscord} 
                   className="text-gray-500 hover:text-blue-300 transition-colors" 
                 />
-              </a>
+              </a> */}
+
             </div>
           </div>
         </div>

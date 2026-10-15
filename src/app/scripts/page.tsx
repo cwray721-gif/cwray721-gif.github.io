@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ExternalLink, Github } from "lucide-react";
-import { projects } from "../models/ProjectItems";
+import { scripts } from "../models/ProjectItems";
 import { colorVariants } from "../models/ColorVariants";
 
 export default function Projects() {
@@ -12,7 +12,7 @@ export default function Projects() {
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {projects.map((project, index) => {
+        {scripts.map((project, index) => {
           const theme = colorVariants[project.color];
 
           return (
