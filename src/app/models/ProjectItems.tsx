@@ -2,6 +2,16 @@ import ProjectItem from "./ProjectItem";
 
 export const projects: ProjectItem[] = [
     {
+      title: "The Wash",
+      description: "When a recluse moon used as a military outpost for a rebellion is threatened with an artificial apocalypse, a band of specialists embark on a suicide mission to break even.",
+      tags: ["Sci Fi", "Action", "Books", "23 pages"],
+      link: "/The Wash.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
       title: "Collegiate Esports Network",
       description: "Website for a non-profit organization that I am a part of, built using Svelte.js and Sveltekit, with Discord API, Supabase, and OAuthV2.",
       tags: ["Python", "Svelte.js", "Sveltekit", "Discord API", "Google Cloud Platform", "OAuthV2"],
