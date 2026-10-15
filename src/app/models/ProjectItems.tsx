@@ -21,6 +21,47 @@ export const projects: ProjectItem[] = [
       fit: "contain",
       color: "blue"
     },
+    {
+      title: "Omar and the Wizard",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Omar and the Wizard.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Otto",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Otto.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "The Interim",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/The Interim.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "The Round",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/The Round.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    
     // {
     //   title: "SubletUC",
     //   description: "A student housing application built for UC students, by UC students. Meant to be portable to any university. May be deactivated in the future due to lack of funding and support. Built using Razor Blazor, .NET Framework, SQL Server, and HTML/CSS.",
