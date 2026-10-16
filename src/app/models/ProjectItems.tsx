@@ -61,6 +61,76 @@ export const projects: ProjectItem[] = [
       fit: "contain",
       color: "blue"
     },
+    {
+      title: "BOOM!",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/BOOM!.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Yorick",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Yorick.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Wellness",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Wellness.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Rum & Coke",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Rum & Coke.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Connect the Dots",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Connect the Dots.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "I Challenge You to a Duel",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/I Challenge You to a Duel.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "There is No Such Thing as the Enchilada Hut",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Script There is No Such Thing as the Enchilada Hut.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
     
     // {
     //   title: "SubletUC",
