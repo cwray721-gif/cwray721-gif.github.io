@@ -15,12 +15,123 @@ export const projects: ProjectItem[] = [
       title: "Delta Green-1:1-Jessica's Bodies",
       description: "University Student, Jessica Amon was found dead a week ago in her home. Today, she is found dead bursting out of the gut of a fellow university student who had become impossibly obese over the course of a week. It’s up to natural biologist, Cathy Prennick and veteran Vince Foresythe to discover the cause and correlation of these 2 incidents.",
       tags: ["Scripts", "Thriller", "Mystery", "60 pages"],
-      link: "https://collegiateesportsnetwork.org/",
+      link: "/Jessica's Bodies.pdf",
       github: null,
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
     },
+    {
+      title: "Omar and the Wizard",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Omar and the Wizard.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Otto",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Otto.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "The Interim",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/The Interim.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "The Round",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/The Round.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "BOOM!",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/BOOM!.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Yorick",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Yorick.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Wellness",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Wellness.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Rum & Coke",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Rum & Coke.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "Connect the Dots",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Connect the Dots.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "I Challenge You to a Duel",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/I Challenge You to a Duel.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    {
+      title: "There is No Such Thing as the Enchilada Hut",
+      description: "PLACEHOLDER",
+      tags: ["Fantasy", "PLACEHOLDER"],
+      link: "/Script There is No Such Thing as the Enchilada Hut.pdf",
+      github: null,
+      photo: "/CEN_Logo.webp",
+      fit: "contain",
+      color: "blue"
+    },
+    
     // {
     //   title: "SubletUC",
     //   description: "A student housing application built for UC students, by UC students. Meant to be portable to any university. May be deactivated in the future due to lack of funding and support. Built using Razor Blazor, .NET Framework, SQL Server, and HTML/CSS.",
