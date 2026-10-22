@@ -6,7 +6,7 @@ export const projects: ProjectItem[] = [
       description: "When a recluse moon used as a military outpost for a rebellion is threatened with an artificial apocalypse, a band of specialists embark on a suicide mission to break even.",
       tags: ["Sci Fi", "Action", "Books", "23 pages"],
       link: "/The Wash.pdf",
-      github: null,
+      github: "https://github.com/Chris-Taylor7/SubletUC",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"

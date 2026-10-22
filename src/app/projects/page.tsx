@@ -83,7 +83,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className={`flex items-center text-sm font-semibold text-gray-700 transition-colors ${theme.link}`}
                     >
-                      <Github size={16} className="mr-1.5" /> Source
+                     Pages
                     </a>
                   )}
                 </div>
