@@ -76,15 +76,13 @@ export default function Projects() {
                       <ExternalLink size={16} className="mr-1.5" /> View PDF
                     </a>
                   )}
-                  {project.github && (
-                    <a
-                      href={project.github} 
-                      target="_blank"
+                  {project.pages && (
+                    <p 
                       rel="noopener noreferrer"
                       className={`flex items-center text-sm font-semibold text-gray-700 transition-colors ${theme.link}`}
                     >
-                     Pages
-                    </a>
+                     {project.pages} Pages
+                    </p>
                   )}
                 </div>
               </div>
