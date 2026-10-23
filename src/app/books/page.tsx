@@ -65,7 +65,7 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex items-center gap-4 mt-auto">
+                <div className="flex justify-between gap-4 mt-auto">
                   {project.link && (
                     <a
                       href={project.link} 
@@ -76,15 +76,13 @@ export default function Projects() {
                       <ExternalLink size={16} className="mr-1.5" /> View PDF
                     </a>
                   )}
-                  {project.github && (
-                    <a
-                      href={project.github} 
-                      target="_blank"
+                  {project.pages && (
+                    <p
                       rel="noopener noreferrer"
-                      className={`flex items-center text-sm font-semibold text-gray-700 transition-colors ${theme.link}`}
+                      className={`flex items-center text-sm font-semibold text-gray-700`}
                     >
-                      <Github size={16} className="mr-1.5" /> Source
-                    </a>
+                      {project.pages} Pages
+                    </p>
                   )}
                 </div>
               </div>

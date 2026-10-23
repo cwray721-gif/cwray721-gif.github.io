@@ -5,7 +5,7 @@ export default interface ProjectItem {
   description: string;
   tags: string[];
   link: string | null;
-  github: string | null;
+  pages: string | null;
   photo: string;
   fit: "contain" | "cover";
   color: ColorKey;
