@@ -65,7 +65,7 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex items-center gap-4 mt-auto">
+                <div className="flex justify-between gap-4 mt-auto">
                   {project.link && (
                     <a
                       href={project.link} 
