@@ -4,9 +4,9 @@ export const projects: ProjectItem[] = [
     {
       title: "The Wash",
       description: "When a recluse moon used as a military outpost for a rebellion is threatened with an artificial apocalypse, a band of specialists embark on a suicide mission to break even.",
-      tags: ["Sci Fi", "Action", "Books", "23 pages"],
+      tags: ["Sci Fi", "Action", "Books"],
       link: "/The Wash.pdf",
-      github: "https://github.com/Chris-Taylor7/SubletUC",
+      pages: "23",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -14,9 +14,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Delta Green-1:1-Jessica's Bodies",
       description: "University Student, Jessica Amon was found dead a week ago in her home. Today, she is found dead bursting out of the gut of a fellow university student who had become impossibly obese over the course of a week. It’s up to natural biologist, Cathy Prennick and veteran Vince Foresythe to discover the cause and correlation of these 2 incidents.",
-      tags: ["Scripts", "Thriller", "Mystery", "60 pages"],
+      tags: ["Scripts", "Thriller", "Mystery"],
       link: "/Jessica's Bodies.pdf",
-      github: null,
+      pages: "60",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -24,9 +24,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Omar and the Wizard",
       description: "A writing competition piece: An old adventurer has to refuse an old friends wish for one last journey.",
-      tags: ["Books", "Fantasy", "7 pages"],
+      tags: ["Books", "Fantasy"],
       link: "/Omar and the Wizard.pdf",
-      github: null,
+      pages: "7",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -34,9 +34,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Otto",
       description: "A freelance astronomer encounters an otherworldly being that improves his work significantly - but it comes at a great cost",
-      tags: ["Books", "Sci Fi", "Thriller", "41 pages"],
+      tags: ["Books", "Sci Fi", "Thriller"],
       link: "/Otto.pdf",
-      github: null,
+      pages: "41",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -44,9 +44,9 @@ export const projects: ProjectItem[] = [
     {
       title: "The Interim",
       description: "A writing competition piece: A young dead man awakens in a world between worlds and is faced with an odd task to determine his eternal fate.",
-      tags: ["Fantasy", "Books", "Gothic", "8 pages"],
+      tags: ["Fantasy", "Books", "Gothic"],
       link: "/The Interim.pdf",
-      github: null,
+      pages: "8",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -54,9 +54,9 @@ export const projects: ProjectItem[] = [
     {
       title: "The Round",
       description: "A novel excerpt: a fantastical parliament addresses some serious issues in light of public outrage, and early signs of rebellion.",
-      tags: ["Fantasy", "Books", "Drama", "11 pages"],
+      tags: ["Fantasy", "Books", "Drama"],
       link: "/The Round.pdf",
-      github: null,
+      pages: "11",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -64,9 +64,9 @@ export const projects: ProjectItem[] = [
     {
       title: "BOOM!",
       description: "Two young filmmakers are trying to find a safe and legal way to set of an explosion for project.",
-      tags: ["Scripts", "Comedy", "8 pages"],
+      tags: ["Scripts", "Comedy"],
       link: "/BOOM!.pdf",
-      github: null,
+      pages: "8",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -74,9 +74,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Yorick",
       description: "During a production of Hamlet, the prop skull of Yorick has gone missing and the stagehands, tech booth, and backstage actors must work together to find it and get it on stage before the big scene.",
-      tags: ["Scripts", "Comedy", "16 pages"],
+      tags: ["Scripts", "Comedy"],
       link: "/Yorick.pdf",
-      github: null,
+      pages: "16",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -84,9 +84,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Wellness",
       description: "A mental health patient is routinely asked unreasonable questions by their psychiatrist and made worse than they did when they first arrived.",
-      tags: ["Scripts", "Thriller", "25 pages"],
+      tags: ["Scripts", "Thriller"],
       link: "/Wellness.pdf",
-      github: null,
+      pages: "25",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -94,9 +94,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Rum & Coke",
       description: "A feature film script where a famous writer/director duo in the late 1970s separate to pursue their “magnum opus”. Their projects overlap, compete, and turn painfully personal - all in pursuit of an academy award.",
-      tags: ["Scripts", "Comedy", "Drama", "115 pages"],
+      tags: ["Scripts", "Comedy", "Drama"],
       link: "/Rum & Coke.pdf",
-      github: null,
+      pages: "115",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -104,9 +104,9 @@ export const projects: ProjectItem[] = [
     {
       title: "Connect the Dots",
       description: "A noir style detective recounts his various interrogations with suspects and contacts of the victim to reach the conclusion of his investigation.",
-      tags: ["Scripts", "Mystery", "Noir", "9 pages"],
+      tags: ["Scripts", "Mystery", "Noir"],
       link: "/Connect the Dots.pdf",
-      github: null,
+      pages: "9",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -114,9 +114,9 @@ export const projects: ProjectItem[] = [
     {
       title: "I Challenge You to a Duel",
       description: "Several travelling knights wish to cross a bridge, but must fight its protector to cross. Shenanigans ensue.",
-      tags: ["Scripts", "Comedy", "9 pages"],
+      tags: ["Scripts", "Comedy"],
       link: "/I Challenge You to a Duel.pdf",
-      github: null,
+      pages: "9",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
@@ -124,9 +124,9 @@ export const projects: ProjectItem[] = [
     {
       title: "There is No Such Thing as the Enchilada Hut",
       description: "In a strange job interview, a hiring manager reveals that an interviewee’s favorite restaurant doesn’t exist, never has, and never will.",
-      tags: ["Scripts", "Comedy", "Thriller", "10 pages"],
+      tags: ["Scripts", "Comedy", "Thriller"],
       link: "/Script There is No Such Thing as the Enchilada Hut.pdf",
-      github: null,
+      pages: "10",
       photo: "/CEN_Logo.webp",
       fit: "contain",
       color: "blue"
