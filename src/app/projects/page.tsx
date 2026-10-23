@@ -79,7 +79,7 @@ export default function Projects() {
                   {project.pages && (
                     <p 
                       rel="noopener noreferrer"
-                      className={`flex items-center text-sm font-semibold text-gray-700 transition-colors ${theme.link}`}
+                      className={`flex items-center text-sm font-semibold text-gray-700`}
                     >
                      {project.pages} Pages
                     </p>
