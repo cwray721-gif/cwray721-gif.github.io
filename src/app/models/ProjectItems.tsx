@@ -17,7 +17,7 @@ export const projects: ProjectItem[] = [
       tags: ["Sci Fi", "Action", "Prose Fiction"],
       link: "/The Wash.pdf",
       pages: "23",
-      photo: "/CEN_Logo.webp",
+      photo: "/Placeholder.png",
       fit: "contain",
       color: "blue"
     },
@@ -57,7 +57,7 @@ export const projects: ProjectItem[] = [
       tags: ["Fantasy", "Prose Fiction", "Gothic"],
       link: "/The Interim.pdf",
       pages: "8",
-      photo: "/CEN_Logo.webp",
+      photo: "/Placeholder.png",
       fit: "contain",
       color: "blue"
     },
@@ -67,7 +67,7 @@ export const projects: ProjectItem[] = [
       tags: ["Fantasy", "Prose Fiction", "Drama"],
       link: "/The Round.pdf",
       pages: "11",
-      photo: "/CEN_Logo.webp",
+      photo: "/Placeholder.png",
       fit: "contain",
       color: "blue"
     },
@@ -87,7 +87,7 @@ export const projects: ProjectItem[] = [
       tags: ["Scripts", "Comedy"],
       link: "/Yorick.pdf",
       pages: "16",
-      photo: "/CEN_Logo.webp",
+      photo: "/Placeholder.png",
       fit: "contain",
       color: "blue"
     },
@@ -97,7 +97,7 @@ export const projects: ProjectItem[] = [
       tags: ["Scripts", "Thriller"],
       link: "/Wellness.pdf",
       pages: "25",
-      photo: "/CEN_Logo.webp",
+      photo: "/Placeholder.png",
       fit: "contain",
       color: "blue"
     },
@@ -137,7 +137,7 @@ export const projects: ProjectItem[] = [
       tags: ["Scripts", "Comedy", "Thriller"],
       link: "/Script There is No Such Thing as the Enchilada Hut.pdf",
       pages: "10",
-      photo: "/CEN_Logo.webp",
+      photo: "/Placeholder.png",
       fit: "contain",
       color: "blue"
     },
