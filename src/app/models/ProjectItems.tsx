@@ -14,7 +14,7 @@ export const projects: ProjectItem[] = [
     {
       title: "The Wash",
       description: "When a recluse moon used as a military outpost for a rebellion is threatened with an artificial apocalypse, a band of specialists embark on a suicide mission to break even.",
-      tags: ["Sci Fi", "Action", "Books"],
+      tags: ["Sci Fi", "Action", "Prose Fiction"],
       link: "/The Wash.pdf",
       pages: "23",
       photo: "/CEN_Logo.webp",
@@ -34,7 +34,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Omar and the Wizard",
       description: "A writing competition piece: An old adventurer has to refuse an old friends wish for one last journey.",
-      tags: ["Books", "Fantasy"],
+      tags: ["Prose Fiction", "Fantasy"],
       link: "/Omar and the Wizard.pdf",
       pages: "7",
       photo: "/Omar&theWizard.png",
@@ -44,7 +44,7 @@ export const projects: ProjectItem[] = [
     {
       title: "Otto",
       description: "A freelance astronomer encounters an otherworldly being that improves his work significantly - but it comes at a great cost",
-      tags: ["Books", "Sci Fi", "Thriller"],
+      tags: ["Prose Fiction", "Sci Fi", "Thriller"],
       link: "/Otto.pdf",
       pages: "41",
       photo: "/Otto.png",
@@ -54,7 +54,7 @@ export const projects: ProjectItem[] = [
     {
       title: "The Interim",
       description: "A writing competition piece: A young dead man awakens in a world between worlds and is faced with an odd task to determine his eternal fate.",
-      tags: ["Fantasy", "Books", "Gothic"],
+      tags: ["Fantasy", "Prose Fiction", "Gothic"],
       link: "/The Interim.pdf",
       pages: "8",
       photo: "/CEN_Logo.webp",
@@ -64,7 +64,7 @@ export const projects: ProjectItem[] = [
     {
       title: "The Round",
       description: "A novel excerpt: a fantastical parliament addresses some serious issues in light of public outrage, and early signs of rebellion.",
-      tags: ["Fantasy", "Books", "Drama"],
+      tags: ["Fantasy", "Prose Fiction", "Drama"],
       link: "/The Round.pdf",
       pages: "11",
       photo: "/CEN_Logo.webp",
@@ -147,6 +147,6 @@ export const projects: ProjectItem[] = [
 
   export const gameDesign = projects.filter((ProjectItem) => ProjectItem.tags.includes("Game Design"));
 
-  export const books = projects.filter((ProjectItem) => ProjectItem.tags.includes("Books"));
+  export const books = projects.filter((ProjectItem) => ProjectItem.tags.includes("Prose Fiction"));
 
 
