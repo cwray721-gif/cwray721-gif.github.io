@@ -3,8 +3,8 @@ import ProjectItem from "./ProjectItem";
 export const projects: ProjectItem[] = [
     {
       title: "Food for the Sea",
-      description: "PLACEHOLDER",
-      tags: ["Game Design", "PLACEHOLDER"],
+      description: "Somewhere in San Diego, clients of the Sundown Motel have been acting strange; not socializing as much and visiting La Jolla beach in the middle of the night. In this module, players/agents must find out what is happening, and neutralize any threat.",
+      tags: ["Game Design", "Delta Green", "Mystery", "Horror"],
       link: "/Food for the Sea.pdf",
       pages: "8",
       photo: "/FoodfortheSea.png",
