@@ -140,7 +140,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT COLUMN: Photo Placeholder */}
-        <div className="order-1 md:order-2 flex justify-center md:justify-end">
+        <div className="order-1 md:order-2 flex flex-col justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-xl bg-gray-100 flex items-center justify-center">
              <img 
               src="/profile.jpeg" 
@@ -148,6 +148,56 @@ export default function Home() {
               className="object-cover w-full h-full"
             /> 
           </div>
+          {/* Social Icons */}
+            <div className="flex items-center gap-2 ml-14 mt-5">
+              <a
+                href="https://www.linkedin.com/in/connor-wray-76a324220/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 text-gray-500 hover:text-blue-600 transition-colors"
+              >
+                <Linkedin size={24} />
+              </a>
+
+              {/* <a
+                href="https://github.com/Chris-Taylor7" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 text-gray-500 hover:text-black transition-colors"
+              >
+                <Github size={24} />
+              </a> */}
+              
+              <a
+                href="mailto:cwray721@gmail.com" target="_blank"
+                className="p-3 text-gray-500 hover:text-red-500 transition-colors"
+              >
+                <Mail size={24} />
+              </a>
+              <a 
+                href="tel:+15136809070"
+                className="p-3 text-gray-500 hover:text-green-500 transition-colors"
+                >
+                <Phone size={24}  />
+              </a>
+              <a 
+                href="https://instagram.com/connorwray300" target="_blank"
+                className="p-3 text-gray-500 hover:text-pink-500 transition-colors"
+              >
+                <Instagram size={24} />
+              </a>
+
+              {/* <a 
+                href="https://www.discord.com/users/465965656270045184" target="_blank"
+                className="p-3 text-gray-500 hover:text-blue-300 transition-colors"
+              >
+                <FontAwesomeIcon 
+                  icon={faDiscord} 
+                  className="text-gray-500 hover:text-blue-300 transition-colors" 
+                />
+              </a> */}
+
+            </div>
         </div>
       </div>
 
