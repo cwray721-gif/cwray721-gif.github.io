@@ -143,7 +143,7 @@ export default function Home() {
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-xl bg-gray-100 flex items-center justify-center">
              <img 
-              src="/profile.jpg" 
+              src="/profile.jpeg" 
               alt="Connor Wray" 
               className="object-cover w-full h-full"
             /> 
