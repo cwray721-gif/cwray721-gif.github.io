@@ -32,3 +32,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+// bg-green-950
