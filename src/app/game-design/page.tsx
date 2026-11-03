@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { gameDesign } from "../models/ProjectItems";
 import { colorVariants } from "../models/ColorVariants";
 
