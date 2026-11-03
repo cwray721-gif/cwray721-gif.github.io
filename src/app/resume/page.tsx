@@ -35,104 +35,104 @@ interface EducationItem {
 // --- Data ---
 const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    company: "Sherwin Williams",
-    role: "Software Engineer, Contract",
-    date: "May 2026 - Present",
+    company: "Best Buy",
+    role: "Tech Advisor",
+    date: "October 2026 - Present",
     icon: Code,
     colors: { timelineBg: "bg-blue-600", roleText: "text-blue-600", bulletIcon: "text-blue-600" },
     points: [
-      "Delivered customer-first features within an Agile team, executing consistently against two-week sprint cycles.",
-      "Engineered database automation to search for and delete personally identifiable information (PII), strengthening data privacy and compliance posture.",
-      "Optimized content delivery systems supporting 1,000+ sales representatives, store managers, and district sales leaders.",
-      "Led application support for the entire sales planning user base, driving backlog bug levels to 0% across all environments.",
-      "Pioneered software modernization initiatives using Java Spring Boot and Vue.js, collaborating cross-functionally with shared component library teams.",
-      "Managed ETL pipelines by developing, running, and maintaining AWS Glue scripts to support data integration workflows."
+      "Assisted customers with technology solutions, providing expert guidance and support to ensure optimal product performance and customer satisfaction.",
+      "Organized and maintained inventory of technology products, ensuring availability and proper stock levels to meet customer demand.",
+      "Familiarized myself with Best Buy's product offerings and technology solutions to provide informed recommendations to customers.",
+      "Regularly offered Best Buy's memberships and credit card options to customers, enhancing their overall shopping experience and loyalty.",
     ]
   },
   {
-    company: "Lincoln Electric",
-    role: "Application Security Analyst Co-op", // Updated from Cybersecurity Analyst to match resume
-    date: "May 2025 - August 2025",
+    company: "Dean's Cards",
+    role: "Office Assistant", // Updated from Cybersecurity Analyst to match resume
+    date: "July 2025 - August 2026",
     icon: Shield,
     colors: { timelineBg: "bg-red-600", roleText: "text-red-600", bulletIcon: "text-red-600" },
     points: [
-      "Drove secure-by-design adoption across development teams per CISA standards, reducing security gaps and implementing policy-level procedures.",
-      "Integrated SAST and SCA tools into developer workflows to speed up remediation and align security metrics with business impact.",
-      "Scaled Rapid7 Insight AppSec scanning candidates by 780% (7.8x) and communicated coverage analysis directly to C-suite management.",
-      "Facilitated threat modeling sessions using STRIDE and DREAD frameworks to proactively identify and mitigate product security risks.",
-      "Investigated Java detection tools to migrate Oracle instances to OpenJDK, successfully reducing licensing costs.",
-      "Spearheaded an AI-driven initiative to capture institutional knowledge, improving cross-team communication and productivity."
+      "Satisfied customer needs and inquiries over the phone and in person.",
+      "Routinely organized and cleaned the office and kitchen space for optimal work conditions.",
+      "Maximized website efficiency by regularly updating incoming product listings and repairing technical errors.",
+      "Trained new employees on office procedures and best practices.",
+      "Familiarized myself with Dean's Cards' products and sorting system to better help customers and fellow employees."
     ]
   },
   {
-    company: "Schaeffler Group",
-    role: "Full Stack Software Engineering Co-op",
-    date: "Jan 2024 - May 2024, Aug 2024 - Dec 2024",
+    company: "Curiosity Advertising",
+    role: "Marketing Intern",
+    date: "Jan 2024 - May 2024",
     icon: Code,
     colors: { timelineBg: "bg-green-700", roleText: "text-green-700", bulletIcon: "text-green-700" },
     points: [
-      "Led full-stack feature creation for scalable internal applications using Angular.js, TypeScript, and C# .NET.",
-      "Leveraged Microsoft Azure and Jenkins to streamline DevOps processes and ensure a robust CI/CD pipeline.", 
-      "Collaborated directly with engineering teams and internal customers to gather requirements and deliver custom in-house solutions.",
-      "Optimized business workflows by digitizing communication channels and developing user-centric software tools."
+      "Assisted in the development and execution of marketing campaigns to increase brand visibility and customer engagement.",
+      "Efficiently scheduled meetings and coordinated calendars for professional and client interactions, and filming dates.", 
+      "Achieved regular client satisfaction through effective communication and timely delivery of marketing materials.",
+      "Assisted production on sets and supported all departments during filming."
     ]
   },
   {
-    company: "Midmark Corporation",
-    role: "Full Stack Software Engineering Co-op", // Updated from Software Developer to match resume
-    date: "May 2023 - August 2023",
+    company: "Average Joe Films",
+    role: "Assistant Director", // Updated from Software Developer to match resume
+    date: "October 2024 - August 2026",
     icon: Cpu,
     colors: { timelineBg: "bg-cyan-600", roleText: "text-cyan-600", bulletIcon: "text-cyan-600" },
     points: [
-      "Engineered cloud platform solutions using React.js and C# .NET within a microfrontend architecture.",
-      "Utilized Azure DevOps to implement End-to-End (E2E) testing pipelines and the Jest framework for unit testing.",
-      "Collaborated within an Agile/SCRUM environment to maximize team communication and deliver value-first features to customers."
+      "Assisted the director in planning and executing film production schedules.",
+      "Coordinated with various departments to ensure smooth operations on set.",
+      "Helped manage cast and crew logistics, including scheduling and transportation.",
+      "Secured locations, equipment, catering, transportation, and other necessary resources for film production."
     ]
   },
   {
-    company: "Midmark Corporation",
-    role: "Application Security Co-op", // Updated from Cybersecurity Engineering to match resume
-    date: "August 2022 - December 2022",
+    company: "TG Studios",
+    role: "Administrative Assistant", // Updated from Cybersecurity Engineering to match resume
+    date: "August 2022 - April 2025",
     icon: Shield,
     colors: { timelineBg: "bg-cyan-600", roleText: "text-cyan-600", bulletIcon: "text-cyan-600" },
     points: [
-      "Implemented automated code scanning and agent-based SCA tools (Veracode, Rapid7) across four software development teams.",
-      "Streamlined deployment processes using Azure DevOps pipelines to accelerate vulnerability remediation.",
-      "Developed comprehensive PowerBI reports to present security metrics to management.",
-      "Authored technical documentation for application security testing vendors to standardize implementation."
+      "Assisted in the day-to-day administrative operations of the studio, including scheduling, correspondence, and record-keeping.",
+      "Coordinated with various departments to ensure smooth workflow and effective communication.",
+      "Managed office supplies, equipment, and other resources to support the studio's operations.",
+      "Provided support for special projects and events as needed.",
+      "Handled personal and professional delivery and pickup operations efficiently."
     ]
   },
   {
-    company: "Staples Corporation",
-    role: "Sales and Technology Repair Associate",
-    date: "May 2022 - August 2022",
+    company: "Cindependent Film Festival",
+    role: "Event Assistant",
+    date: "September 2023 - September 2025",
     icon: ShoppingCart,
     colors: { timelineBg: "bg-red-600", roleText: "text-red-600", bulletIcon: "text-red-600" },
     points: [
-      "Led technology sales, providing expert consultation to drive high customer satisfaction and revenue.",
-      "Achieved the highest sales record of the year for the location in 2022.",
-      "Diagnosed and repaired a wide variety of consumer electronics at the technical support desk."
+      "Assisted in the planning and execution of film festival events, ensuring smooth operations and attendee satisfaction.",
+      "Coordinated with various departments and vendors to manage event logistics, including scheduling, transportation, and catering.",
+      "Provided support for special projects and promotional activities as needed.",
+      "Attended front desk and organization booths to welcome and inform incoming attendees."
     ]
   }
 ];
 
 const EDUCATION_DATA: EducationItem[] = [
   {
-    degree: "Bachelor of Science in Cybersecurity",
+    degree: "Bachelor of Arts and Science in Digital Media Collaboration",
     school: "University of Cincinnati",
-    date: "August 2021 - May 2026",
+    date: "August 2022 - April 2026",
     borderColor: "border-red-600"
   },
   {
-    degree: "Bachelor of Science in Information Technology - Networking Systems",
+    degree: "Certificate in Screenwriting",
     school: "University of Cincinnati",
-    date: "August 2021 - May 2026",
-    borderColor: "border-red-600"
+    date: "August 2022 - April 2026",
+    borderColor: "border-gray-800"
   },
   {
-    degree: "High School Diploma",
-    school: "New Philadelphia High School",
-    date: "August 2018 - May 2021",
+    degree: "Certificate in Directing",
+    school: "University of Cincinnati",
+    date: "August 2022 - April 2026",
     borderColor: "border-gray-800"
   }
 ];
