@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Github, Instagram, Linkedin, Mail, Download, Phone } from "lucide-react";
+import { ArrowRight, Mail, Download, Phone } from "lucide-react";
 import { useEffect, useState } from "react";
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa6';
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -94,7 +95,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="p-3 text-gray-500 hover:text-blue-600 transition-colors"
               >
-                <Linkedin size={24} />
+                <FaLinkedin size={24} />
               </a>
 
               {/* <a
@@ -122,7 +123,7 @@ export default function Home() {
                 href="https://instagram.com/connorwray300" target="_blank"
                 className="p-3 text-gray-500 hover:text-pink-500 transition-colors"
               >
-                <Instagram size={24} />
+                <FaInstagram size={24} />
               </a>
 
               {/* <a 
