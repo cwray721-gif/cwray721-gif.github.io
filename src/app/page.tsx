@@ -79,8 +79,8 @@ export default function Home() {
 
             {/* 2. NEW RESUME BUTTON */}
             <a
-              href="/Chris_Taylor_SWE.pdf"
-              download="Chris_Taylor_SWE.pdf" 
+              href="/Connor CF Wray Resume (2026).pdf"
+              download="Connor CF Wray Resume (2026).pdf"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border-2 border-gray-200 rounded-lg hover:bg-gray-800 transition-colors"
             >
               Resume <Download className="ml-2 h-4 w-4" />
@@ -143,7 +143,7 @@ export default function Home() {
         <div className="order-1 md:order-2 flex justify-center md:justify-end">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-xl bg-gray-100 flex items-center justify-center">
              <img 
-              src="/profile.jpg" 
+              src="/profile.jpeg" 
               alt="Connor Wray" 
               className="object-cover w-full h-full"
             /> 
@@ -157,7 +157,7 @@ export default function Home() {
           <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl min-h-[80px] pt-16">About Me</h1>
           <p className="text-xl text-gray-800 max-w-lg">
            Hello, my name is Connor Wray - I'm a writer and game designer. I graduated from the University of Cincinnati
-           with a Bachelor'sdegree in Digital Media Collaboration and certificates in Screenwriting and Directing.
+           with a Bachelor's degree in Digital Media Collaboration and certificates in Screenwriting and Directing.
             <br /> <br />
             Throughout my scholastic years of high school and college, I have experimented with a wide variety of creative mediums,
             mostly revolving around literature. In my years of experimentation, I've found a passion and an appreciation for all forms of writing,
@@ -165,7 +165,7 @@ export default function Home() {
             As of 2026, I have 20 finished scripts (16 short and 4 feature-length), 10 short stories, 3 novellas, and 26 game modules for 
             Dungeons & Dragons 5th Edition, Call of Cthulhu, and more. 
             <br /> <br />
-            Throughout my time in college, Ihave had several of my works entered into the Over the Rhine Film Festival, Cindependant, and Winterfilm. 
+            Throughout my time in college, I have had several of my works entered into the Over the Rhine Film Festival, Cindependant, and Winterfilm. 
             I have officially ran to fruition 20/26 of the modules I have written, and have been designing games with their own systems for the past 2 years now.
             I have also submitted many of my written works to various competitions such as the Woodland Writers short story competition and the Writers Digest short story competition.
             <br /> <br />

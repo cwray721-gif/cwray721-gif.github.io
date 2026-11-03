@@ -13,8 +13,7 @@ export default function Navbar() {
     { href: "/projects", label: "All Works", icon: TextAlignStart },
     { href: "/scripts", label: "Scripts", icon: NotebookPen },
     { href: "/game-design", label: "Game Design", icon: Dices },
-    { href: "/books", label: "Books", icon: BookOpenText },
-    //{ href: "/contributions", label: "Contributions", icon: Briefcase }
+    { href: "/prose-fiction", label: "Prose Fiction", icon: BookOpenText },
   ];
 
   return (
