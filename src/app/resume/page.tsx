@@ -83,7 +83,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     points: [
       "Assisted the director in planning and executing film production schedules.",
       "Coordinated with various departments to ensure smooth operations on set.",
-      "Helped manage cast and crew logistics, including scheduling and transportation."
+      "Helped manage cast and crew logistics, including scheduling and transportation.",
       "Secured locations, equipment, catering, transportation, and other necessary resources for film production."
     ]
   },
@@ -97,14 +97,14 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
       "Assisted in the day-to-day administrative operations of the studio, including scheduling, correspondence, and record-keeping.",
       "Coordinated with various departments to ensure smooth workflow and effective communication.",
       "Managed office supplies, equipment, and other resources to support the studio's operations.",
-      "Provided support for special projects and events as needed."
+      "Provided support for special projects and events as needed.",
       "Handled personal and professional delivery and pickup operations efficiently."
     ]
   },
   {
     company: "Cindependent Film Festival",
     role: "Event Assistant",
-    date: "September 2023 - September 2025,
+    date: "September 2023 - September 2025",
     icon: ShoppingCart,
     colors: { timelineBg: "bg-red-600", roleText: "text-red-600", bulletIcon: "text-red-600" },
     points: [
