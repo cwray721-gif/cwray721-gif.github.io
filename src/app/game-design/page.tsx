@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ExternalLink, Github } from "lucide-react";
-import { projects } from "../models/ProjectItems";
+import { gameDesign } from "../models/ProjectItems";
 import { colorVariants } from "../models/ColorVariants";
 
 export default function Projects() {
@@ -12,7 +12,7 @@ export default function Projects() {
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {projects.map((project, index) => {
+        {gameDesign.map((project, index) => {
           const theme = colorVariants[project.color];
 
           return (
@@ -65,7 +65,7 @@ export default function Projects() {
                 </div>
 
                 {/* Links */}
-                <div className="flex items-center gap-4 mt-auto">
+                <div className="flex justify-between gap-4 mt-auto">
                   {project.link && (
                     <a
                       href={project.link} 
@@ -73,18 +73,16 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className={`flex items-center text-sm font-semibold text-gray-700 transition-colors ${theme.link}`}
                     >
-                      <ExternalLink size={16} className="mr-1.5" /> Live Demo
+                      <ExternalLink size={16} className="mr-1.5" /> View PDF
                     </a>
                   )}
-                  {project.github && (
-                    <a
-                      href={project.github} 
-                      target="_blank"
+                  {project.pages && (
+                    <p
                       rel="noopener noreferrer"
-                      className={`flex items-center text-sm font-semibold text-gray-700 transition-colors ${theme.link}`}
+                      className={`flex items-center text-sm font-semibold text-gray-700`}
                     >
-                      <Github size={16} className="mr-1.5" /> Source
-                    </a>
+                      {project.pages} Pages
+                    </p>
                   )}
                 </div>
               </div>
