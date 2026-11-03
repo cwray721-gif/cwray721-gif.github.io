@@ -157,7 +157,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="p-3 text-gray-500 hover:text-blue-600 transition-colors"
               >
-                <Linkedin size={24} />
+                <FaLinkedin size={24} />
               </a>
 
               {/* <a
@@ -185,7 +185,7 @@ export default function Home() {
                 href="https://instagram.com/connorwray300" target="_blank"
                 className="p-3 text-gray-500 hover:text-pink-500 transition-colors"
               >
-                <Instagram size={24} />
+                <FaInstagram size={24} />
               </a>
 
               {/* <a 
