@@ -1,13 +1,15 @@
 import React from "react";
-import { 
-  Shield, 
-  Code, 
-  Cpu, 
-  ShoppingCart, 
+import {  
+  Film,   
   ChevronRight, 
   GraduationCap, 
   Briefcase,
-  LucideIcon 
+  MonitorCheck,
+  PlayingCardsFan,
+  MessageCircleQuestionMark,
+  LucideIcon, 
+  Clapperboard,
+  Ticket
 } from "lucide-react";
 
 // --- Types ---
@@ -38,7 +40,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     company: "Best Buy",
     role: "Tech Advisor",
     date: "October 2026 - Present",
-    icon: Code,
+    icon: MonitorCheck,
     colors: { timelineBg: "bg-blue-600", roleText: "text-blue-600", bulletIcon: "text-blue-600" },
     points: [
       "Assisted customers with technology solutions, providing expert guidance and support to ensure optimal product performance and customer satisfaction.",
@@ -51,7 +53,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     company: "Dean's Cards",
     role: "Office Assistant", // Updated from Cybersecurity Analyst to match resume
     date: "July 2025 - August 2026",
-    icon: Shield,
+    icon: PlayingCardsFan,
     colors: { timelineBg: "bg-red-600", roleText: "text-red-600", bulletIcon: "text-red-600" },
     points: [
       "Satisfied customer needs and inquiries over the phone and in person.",
@@ -65,7 +67,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     company: "Curiosity Advertising",
     role: "Marketing Intern",
     date: "Jan 2024 - May 2024",
-    icon: Code,
+    icon: MessageCircleQuestionMark,
     colors: { timelineBg: "bg-green-700", roleText: "text-green-700", bulletIcon: "text-green-700" },
     points: [
       "Assisted in the development and execution of marketing campaigns to increase brand visibility and customer engagement.",
@@ -78,7 +80,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     company: "Average Joe Films",
     role: "Assistant Director", // Updated from Software Developer to match resume
     date: "October 2024 - August 2026",
-    icon: Cpu,
+    icon: Film,
     colors: { timelineBg: "bg-cyan-600", roleText: "text-cyan-600", bulletIcon: "text-cyan-600" },
     points: [
       "Assisted the director in planning and executing film production schedules.",
@@ -91,7 +93,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     company: "TG Studios",
     role: "Administrative Assistant", // Updated from Cybersecurity Engineering to match resume
     date: "August 2022 - April 2025",
-    icon: Shield,
+    icon: Clapperboard,
     colors: { timelineBg: "bg-cyan-600", roleText: "text-cyan-600", bulletIcon: "text-cyan-600" },
     points: [
       "Assisted in the day-to-day administrative operations of the studio, including scheduling, correspondence, and record-keeping.",
@@ -105,7 +107,7 @@ const EXPERIENCE_DATA: ExperienceItem[] = [
     company: "Cindependent Film Festival",
     role: "Event Assistant",
     date: "September 2023 - September 2025",
-    icon: ShoppingCart,
+    icon: Ticket,
     colors: { timelineBg: "bg-red-600", roleText: "text-red-600", bulletIcon: "text-red-600" },
     points: [
       "Assisted in the planning and execution of film festival events, ensuring smooth operations and attendee satisfaction.",
