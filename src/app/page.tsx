@@ -155,7 +155,7 @@ export default function Home() {
       
       <div className="space-y-6 order-2 md:order-1">
           <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl min-h-[80px] pt-16">About Me</h1>
-          <p className="text-xl text-gray-800 max-w-lg">
+          <p className="text-xl text-gray-800">
            Hello, my name is Connor Wray - I'm a writer and game designer. I graduated from the University of Cincinnati
            with a Bachelor's degree in Digital Media Collaboration and certificates in Screenwriting and Directing.
             <br /> <br />
