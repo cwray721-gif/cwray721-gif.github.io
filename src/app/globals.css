@@ -8,6 +8,7 @@
   --color-brown-hover: #572c02;
   --color-tan: #eae0d5; 
   --color-beige: #eed5b7;
+  --color-green: #0e2d25;
 }
 
 @theme {
@@ -15,6 +16,7 @@
   --brown-hover: #572c02;
   --background-tan: #d2b48c;
   --background-beige: #eed5b7;
+  --green: #0e2d25;
 }
 
 @theme inline {
@@ -29,7 +31,8 @@
   --color-brown: #331a02;
   --color-brown-hover: #572c02;
   --color-tan: #eae0d5;
-  --color-beige: #eed5b7; 
+  --color-beige: #eed5b7;
+  --color-green: #0e2d25; 
 }
 
 body {

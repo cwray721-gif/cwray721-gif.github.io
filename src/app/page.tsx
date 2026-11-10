@@ -10,39 +10,6 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { FaLinkedin, FaInstagram } from 'react-icons/fa6';
 
 export default function Home() {
-  const [text, setText] = useState("");
-  const fullText = "Connor Wray";
-
-  useEffect(() => {
-    let typeInterval: NodeJS.Timeout;
-    let loopInterval: NodeJS.Timeout;
-
-    const startTyping = () => {
-      let index = 0;
-      setText(""); 
-
-      typeInterval = setInterval(() => {
-        setText(fullText.slice(0, index + 1));
-        index++;
-        
-        if (index === fullText.length) {
-          clearInterval(typeInterval);
-        }
-      }, 100);
-    };
-
-    startTyping();
-
-    loopInterval = setInterval(() => {
-      clearInterval(typeInterval); 
-      startTyping();
-    }, 5000);
-
-    return () => {
-      clearInterval(typeInterval);
-      clearInterval(loopInterval);
-    };
-  }, []);
 
   return (
     <div className="flex flex-col justify-center min-h-[80vh] animate-slide-up">
@@ -51,12 +18,11 @@ export default function Home() {
         
         {/* LEFT COLUMN: Text Content */}
         <div className="space-y-6 order-2 md:order-1">
-          <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl min-h-[80px]">
-            {text}
-            <span className="animate-pulse text-green-800">|</span>
+          <h1 className="text-5xl font-extrabold tracking-tight text-gray-500 sm:text-6xl min-h-[80px]">
+            Connor Wray
           </h1>
-          <h1 className="text-3xl font-extrabold tracking-tight text-gray-700 sm:text-4xl min-h-[80px]">What story do you want to tell?</h1>
-          <p className="text-xl text-gray-800 max-w-lg">
+          <h1 className="text-3xl font-extrabold tracking-tight text-gray-200 sm:text-4xl min-h-[80px]">What story do you want to tell?</h1>
+          <p className="text-xl text-gray-100 max-w-lg">
             I am a writer and game designer with a passion for creating immersive experiences. My work spans across various mediums, including interactive fiction, tabletop games, and digital storytelling. I believe in the power of narrative to connect people and evoke emotions, and I strive to craft stories that resonate with audiences on a personal level.
   
           </p>
@@ -104,7 +70,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/connor-wray-76a324220/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 text-gray-500 hover:text-blue-600 transition-colors"
+                className="p-3 text-gray-200 hover:text-blue-600 transition-colors"
               >
                 <FaLinkedin size={24} />
               </a>
@@ -120,19 +86,19 @@ export default function Home() {
               
               <a
                 href="mailto:cwray721@gmail.com" target="_blank"
-                className="p-3 text-gray-500 hover:text-red-500 transition-colors"
+                className="p-3 text-gray-200 hover:text-red-500 transition-colors"
               >
                 <Mail size={24} />
               </a>
               <a 
                 href="tel:+15136809070"
-                className="p-3 text-gray-500 hover:text-green-500 transition-colors"
+                className="p-3 text-gray-200 hover:text-green-500 transition-colors"
                 >
                 <Phone size={24}  />
               </a>
               <a 
                 href="https://instagram.com/connorwray300" target="_blank"
-                className="p-3 text-gray-500 hover:text-pink-500 transition-colors"
+                className="p-3 text-gray-200 hover:text-pink-500 transition-colors"
               >
                 <FaInstagram size={24} />
               </a>
@@ -154,8 +120,8 @@ export default function Home() {
       <br />
       
       <div className="space-y-6 order-2 md:order-1">
-          <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-6xl min-h-[80px] pt-16">About Me</h1>
-          <p className="text-xl text-gray-800">
+          <h1 className="text-5xl font-extrabold tracking-tight text-gray-200 sm:text-6xl min-h-[80px] pt-16">About Me</h1>
+          <p className="text-xl text-gray-200">
            Hello, my name is Connor Wray - I'm a writer and game designer. I graduated from the University of Cincinnati
            with a Bachelor's degree in Digital Media Collaboration and certificates in Screenwriting and Directing.
             <br /> <br />
