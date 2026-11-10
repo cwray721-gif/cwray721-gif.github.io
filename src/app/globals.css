@@ -7,12 +7,14 @@
   --color-brown: #331a02;
   --color-brown-hover: #572c02;
   --color-tan: #eae0d5; 
+  --color-beige: #eed5b7;
 }
 
 @theme {
   --brown: #331a02;
   --brown-hover: #572c02;
   --background-tan: #d2b48c;
+  --background-beige: #eed5b7;
 }
 
 @theme inline {
@@ -26,19 +28,13 @@
 @theme {
   --color-brown: #331a02;
   --color-brown-hover: #572c02;
-  --color-tan: #eae0d5; 
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-tan: #eae0d5;
+  --color-beige: #eed5b7; 
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #fafafa; /* Light gray background */
+  background: #0e2d25; /* Light gray background */
   font-family: Arial, Helvetica, sans-serif;
 }
 
