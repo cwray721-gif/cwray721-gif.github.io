@@ -118,8 +118,27 @@ export default function Home() {
       </div>
 
       <br />
+
+      <div className="order-2 inline-flex">
+        <Link
+        href="/game-design"
+        className="inline-flex items-center justify-center px-1 py-3 text-base font-medium">
+          <img src="/Game Design.png" alt="Game Design" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
+        </Link>
+        <Link
+        href="/prose-fiction"
+        className="inline-flex items-center justify-center px-1 py-3 text-base font-medium">
+          <img src="/Prose Fiction.png" alt="Prose Fiction" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
+        </Link>
+        <Link
+        href="/scripts"
+        className="inline-flex items-center justify-center px-1 py-3 text-base font-medium">
+          <img src="/Scripts.png" alt="Scripts" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
+        </Link>
+
+      </div>
       
-      <div className="space-y-6 order-2 md:order-1">
+      <div className="space-y-6 order-3 md:order-2">
           <h1 className="text-5xl font-extrabold tracking-tight text-gray-200 sm:text-6xl min-h-[80px] pt-16">About Me</h1>
           <p className="text-xl text-gray-200">
            Hello, my name is Connor Wray - I'm a writer and game designer. I graduated from the University of Cincinnati
