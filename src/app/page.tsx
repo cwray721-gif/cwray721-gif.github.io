@@ -26,37 +26,10 @@ export default function Home() {
             I am a writer and game designer with a passion for creating immersive experiences. My work spans across various mediums, including interactive fiction, tabletop games, and digital storytelling. I believe in the power of narrative to connect people and evoke emotions, and I strive to craft stories that resonate with audiences on a personal level.
   
           </p>
-          
-          <div className="flex flex-wrap gap-4">
-            {/* 1. VIEW MY WORK BUTTON */}
-            <Link
-              href="/resume"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium
-                         text-white bg-green-700 rounded-lg hover:bg-green-700  transition-colors"
-            >
-              View My Experience <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-            <Link
-              href="/projects"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium
-                        text-white bg-brown rounded-lg hover:bg-brown-hover transition-colors"
-            >
-              View My Projects <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-
-            {/* 2. NEW RESUME BUTTON */}
-            <a
-              href="/Connor CF Wray Resume (2026).pdf"
-              download="Connor CF Wray Resume (2026).pdf"
-              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-gray-900 border-2 border-gray-200 rounded-lg hover:bg-gray-800 transition-colors"
-            >
-              Resume <Download className="ml-2 h-4 w-4" />
-            </a>
-          </div>
         </div>
 
         {/* RIGHT COLUMN: Photo Placeholder */}
-        <div className="order-1 md:order-2 flex flex-col items-center md:justify-end pl-20">
+        <div className="order-1 md:order-2 flex flex-col items-center md:justify-end pl-20 pb-5">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-xl bg-gray-100 flex items-center justify-center">
              <img 
               src="/profile.jpeg" 
@@ -65,7 +38,7 @@ export default function Home() {
             /> 
           </div>
           {/* Social Icons */}
-            <div className="flex items-center gap-2 mt-5">
+            <div className="flex items-center gap-2 mt-5 mb-5">
               <a
                 href="https://www.linkedin.com/in/connor-wray-76a324220/"
                 target="_blank"
@@ -114,25 +87,44 @@ export default function Home() {
               </a> */}
 
             </div>
+            <div className="flex flex-wrap gap-4">
+            {/* 1. VIEW MY WORK BUTTON */}
+            <Link
+              href="/resume"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium
+                         text-gray-700 bg-beige rounded-lg hover:bg-beige-hover  transition-colors"
+            >
+              View My Experience <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+
+            {/* 2. NEW RESUME BUTTON */}
+            <a
+              href="/Connor CF Wray Resume (2026).pdf"
+              download="Connor CF Wray Resume (2026).pdf"
+              className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-900 bg-pistachio rounded-lg hover:bg-pistachio-hover transition-colors"
+            >
+              Resume <Download className="ml-2 h-4 w-4" />
+            </a>
+          </div>
         </div>
       </div>
 
       <br />
 
-      <div className="order-2 inline-flex">
+      <div className="order-2 inline-flex py-5 gap-2">
         <Link
         href="/game-design"
-        className="inline-flex items-center justify-center px-1 py-3 text-base font-medium">
+        className="inline-flex items-center justify-center py-3 text-base font-medium">
           <img src="/Game Design.png" alt="Game Design" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
         </Link>
         <Link
         href="/prose-fiction"
-        className="inline-flex items-center justify-center px-1 py-3 text-base font-medium">
+        className="inline-flex items-center justify-center py-3 text-base font-medium">
           <img src="/Prose Fiction.png" alt="Prose Fiction" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
         </Link>
         <Link
         href="/scripts"
-        className="inline-flex items-center justify-center px-1 py-3 text-base font-medium">
+        className="inline-flex items-center justify-center py-3 text-base font-medium">
           <img src="/Scripts.png" alt="Scripts" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
         </Link>
 
