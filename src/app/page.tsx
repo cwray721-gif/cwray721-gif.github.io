@@ -29,7 +29,7 @@ export default function Home() {
         </div>
 
         {/* RIGHT COLUMN: Photo Placeholder */}
-        <div className="order-1 md:order-2 flex flex-col items-center md:justify-end pl-20 pb-5">
+        <div className="order-1 md:order-2 flex flex-col items-center md:justify-end pl-0 md:pl-20 pb-5">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-xl bg-gray-100 flex items-center justify-center">
              <img 
               src="/profile.jpeg" 
