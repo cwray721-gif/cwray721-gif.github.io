@@ -92,7 +92,7 @@ export default function Home() {
             <Link
               href="/resume"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium
-                         text-gray-700 bg-beige rounded-lg hover:bg-beige-hover  transition-colors"
+                         text-gray-900 bg-beige rounded-lg hover:bg-beige-hover  transition-colors"
             >
               View My Experience <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
