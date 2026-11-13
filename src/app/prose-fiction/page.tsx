@@ -7,8 +7,8 @@ export default function Projects() {
   return (
     <div className="space-y-8 animate-slide-up">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Prose Fiction</h1>
-        <p className="text-gray-600">A selection of my recent work.</p>
+        <h1 className="text-3xl font-bold text-gray-500 mb-2">Prose Fiction</h1>
+        <p className="text-gray-300">A selection of my recent work.</p>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

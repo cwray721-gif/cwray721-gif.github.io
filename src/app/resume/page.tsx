@@ -144,20 +144,20 @@ export default function Resume() {
   return (
     <div className="space-y-12 max-w-3xl animate-slide-up p-4">
       <header>
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Resume</h1>
-        <p className="text-gray-600">
+        <h1 className="text-3xl font-bold text-gray-500 mb-2">Resume</h1>
+        <p className="text-gray-300">
           My professional journey and education, starting with the most recent.
         </p>
       </header>
 
       {/* Experience Section */}
       <section>
-        <h2 className="text-xl font-semibold text-gray-900 mb-8 flex items-center gap-2">
+        <h2 className="text-xl font-semibold text-gray-500 mb-8 flex items-center gap-2">
           <Briefcase className="w-5 h-5" /> Work Experience
         </h2>
         
         {/* Timeline Container */}
-        <div className="border-l-2 border-gray-200 ml-3 space-y-16 pl-8 relative pb-2">
+        <div className="border-l-2 border-green ml-3 space-y-16 pl-8 relative pb-2">
           {EXPERIENCE_DATA.map((job, index) => (
             <div key={index} className="relative group">
               {/* Timeline Icon */}
@@ -165,13 +165,13 @@ export default function Resume() {
                 <job.icon className="w-3.5 h-3.5 text-white" />
               </div>
               
-              <h3 className="text-lg font-bold text-gray-900">{job.company}</h3>
+              <h3 className="text-lg font-bold text-gray-500">{job.company}</h3>
               <div className={`${job.colors.roleText} font-medium mb-1`}>{job.role}</div>
-              <div className="text-sm text-gray-500 mb-4">{job.date}</div>
+              <div className="text-sm text-gray-300 mb-4">{job.date}</div>
               
               <ul className="space-y-3">
                 {job.points.map((point, pointIndex) => (
-                  <li key={pointIndex} className="flex items-start gap-3 text-gray-600">
+                  <li key={pointIndex} className="flex items-start gap-3 text-gray-200">
                     <ChevronRight className={`w-5 h-5 shrink-0 mt-0.5 ${job.colors.bulletIcon}`} />
                     <span>{point}</span>
                   </li>
@@ -184,7 +184,7 @@ export default function Resume() {
 
       {/* Education Section */}
       <section>
-        <h2 className="text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2">
+        <h2 className="text-xl font-semibold text-gray-500 mb-6 flex items-center gap-2">
           <GraduationCap className="w-5 h-5" /> Education
         </h2>
         <div className="grid grid-cols-1 gap-6">
