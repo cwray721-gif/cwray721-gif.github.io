@@ -111,7 +111,7 @@ export default function Home() {
 
       <br />
 
-      <div className="order-2 inline-flex py-5 gap-2">
+      <div className="order-2 flex-col md:inline-flex md:flex-row py-5 gap-2">
         <Link
         href="/game-design"
         className="inline-flex items-center justify-center py-3 text-base font-medium">
