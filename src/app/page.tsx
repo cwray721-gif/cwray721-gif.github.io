@@ -113,6 +113,11 @@ export default function Home() {
 
       <div className="order-2 flex-col md:inline-flex md:flex-row py-5 gap-2">
         <Link
+        href="/scripts"
+        className="inline-flex items-center justify-center py-3 text-base font-medium">
+          <img src="/Scripts.png" alt="Scripts" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
+        </Link>
+        <Link
         href="/game-design"
         className="inline-flex items-center justify-center py-3 text-base font-medium">
           <img src="/Game Design.png" alt="Game Design" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
@@ -121,11 +126,6 @@ export default function Home() {
         href="/prose-fiction"
         className="inline-flex items-center justify-center py-3 text-base font-medium">
           <img src="/Prose Fiction.png" alt="Prose Fiction" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
-        </Link>
-        <Link
-        href="/scripts"
-        className="inline-flex items-center justify-center py-3 text-base font-medium">
-          <img src="/Scripts.png" alt="Scripts" className="w-100 h-auto object-fit rounded-lg border-2 border-gray-300" />
         </Link>
 
       </div>
