@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { User, Briefcase, FolderGit2, NotebookPen, Dices, BookOpenText, TextAlignStart } from "lucide-react";
+import { User, Briefcase, FolderGit2, NotebookPen, Dices, BookOpenText, TextAlignStart, Menu } from "lucide-react";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -15,6 +15,12 @@ export default function Navbar() {
     { href: "/game-design", label: "Game Design", icon: Dices },
     { href: "/prose-fiction", label: "Prose Fiction", icon: BookOpenText },
   ];
+  var dropdownMenu = document.getElementById('dropdownNavbar');
+  var dropdownToggle = document.getElementById('dropdownNavbarLink');
+
+    function toggleDropdown() {
+      dropdownMenu?.classList.toggle('hidden');
+    }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-beige backdrop-blur-md border-b border-gray-200">
@@ -25,7 +31,7 @@ export default function Navbar() {
               Connor Wray
             </Link>
           </div>
-          <div className="flex space-x-8">
+          <div className="hidden md:flex space-x-8">
             {links.map((link) => {
               const Icon = link.icon;
               const isActive = pathname === link.href;
@@ -45,8 +51,33 @@ export default function Navbar() {
               );
             })}
           </div>
+          <div className="flex md:hidden space-x-8">
+            <button onClick={toggleDropdown} id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full text-gray-700 rounded">
+              <Menu size={24} />
+            </button>
+          </div>
         </div>
       </div>
+      <div id="dropdownNavbar" className="z-10 hidden bg-beige border border-gray-500 rounded-lg shadow-lg w-full" >
+              {links.map((link) => {
+              const Icon = link.icon;
+              const isActive = pathname === link.href;
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`flex items-center space-x-2 text-2xl font-medium transition-colors ${
+                    isActive
+                      ? "text-green-800"
+                      : "text-gray-700 hover:text-gray-900"
+                  }`}
+                >
+                  <Icon size={18} />
+                  <span className="inline">{link.label}</span>
+                </Link>
+              );
+            })}
+            </div>
     </nav>
   );
 }
