@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { User, Briefcase, FolderGit2, NotebookPen, Dices, BookOpenText, TextAlignStart, Menu } from "lucide-react";
+import {useState} from "react";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -15,12 +16,18 @@ export default function Navbar() {
     { href: "/game-design", label: "Game Design", icon: Dices },
     { href: "/prose-fiction", label: "Prose Fiction", icon: BookOpenText },
   ];
-  var dropdownMenu = document.getElementById('dropdownNavbar');
-  var dropdownToggle = document.getElementById('dropdownNavbarLink');
+  // var dropdownMenu = document.getElementById('dropdownNavbar');
+  // var dropdownToggle = document.getElementById('dropdownNavbarLink');
+  // const dropdownMenu = useState(null);
+  const [isActive, setIsActive] = useState(false);
+    // function toggleDropdown() {
+    //   dropdownMenu?.classList.toggle('hidden');
+    // }
 
-    function toggleDropdown() {
-      dropdownMenu?.classList.toggle('hidden');
-    }
+  function toggleDropdown() {
+      setIsActive(!isActive);
+      // dropdownMenu.current?.classList.toggle('hidden');
+  }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-beige backdrop-blur-md border-b border-gray-200">
@@ -58,7 +65,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div id="dropdownNavbar" className="z-10 hidden bg-beige border border-gray-500 rounded-lg shadow-lg w-full" >
+      <div id="dropdownNavbar" className={isActive ? "z-10 block bg-beige border border-gray-500 rounded-lg shadow-lg w-full" : "z-10 hidden bg-beige border border-gray-500 rounded-lg shadow-lg w-full"} >
               {links.map((link) => {
               const Icon = link.icon;
               const isActive = pathname === link.href;
