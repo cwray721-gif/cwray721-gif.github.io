@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Quando } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false; 
 
-const inter = Inter({ subsets: ["latin"] });
+const quando = Quando({ weight: "400" });
 
 export const metadata: Metadata = {
   title: "Connor Wray | Portfolio",
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={quando.className}>
         <Navbar />
         <div>
         <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-12">
